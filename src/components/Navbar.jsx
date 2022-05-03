@@ -62,7 +62,7 @@ const Navbar = () => {
                   Braintrust <img src={Braintrust} style={{width:'35px'}} />
                 </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#32de84]'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#60F360]'>
                 <a className='flex justify-between items-center w-full text-black'
                 href="https://hackernoon.com/u/MR_Protocol">
                   Tech Blog  <img src={Hackernoon} style={{width:'32px'}} />
