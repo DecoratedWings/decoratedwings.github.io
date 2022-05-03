@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Logo from'../assets/logo.png';
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaBitcoin} from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -44,14 +44,20 @@ const Navbar = () => {
           <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://www.linkedin.com/in/monarassouli/">
                   Linkedin <FaLinkedin size={30}/>
                 </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://github.com/DecoratedWings">
                   Github <FaGithub size={30}/>
+                </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fdee73]'>
+                <a className='flex justify-between items-center w-full text-black'
+                href="https://app.usebraintrust.com/talent/51099/">
+                  Braintrust <FaBitcoin size={30}/>
                 </a>
             </li>
           </ul>
