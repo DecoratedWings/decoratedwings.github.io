@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import Logo from'../assets/logo.png';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaBitcoin} from 'react-icons/fa';
+import Braintrust from '../assets/braintrust.png';
+import Hackernoon from '../assets/hackernoon.png';
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaBitcoin, FaAlignJustify} from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -57,13 +59,13 @@ const Navbar = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fdee73]'>
                 <a className='flex justify-between items-center w-full text-black'
                 href="https://app.usebraintrust.com/talent/51099/">
-                  Braintrust <FaBitcoin size={30}/>
+                  Braintrust <img src={Braintrust} style={{width:'35px'}} />
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#32de84]'>
                 <a className='flex justify-between items-center w-full text-black'
                 href="https://hackernoon.com/u/MR_Protocol">
-                  Hackernoon <FaBitcoin size={30}/>
+                  Tech Blog  <img src={Hackernoon} style={{width:'32px'}} />
                 </a>
             </li>
           </ul>
