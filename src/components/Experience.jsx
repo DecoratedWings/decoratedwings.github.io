@@ -12,11 +12,11 @@ import Hardhat from '../assets/hardhat.png';
 
 const Experience = () => {
   return (
-    <div name='experience' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='experience' className='w-full h-screen bg-[#23487f] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-purple-600 '>Experience</p>
+              <p className='text-4xl font-bold inline border-b-4 border-blue-200 '>Experience</p>
               <p className='py-4'>Highlighted below are my work and volunteer experiences : </p>
           </div>
 
