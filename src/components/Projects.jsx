@@ -27,7 +27,7 @@ const Projects = () => {
                   <p className='my-4'>Giving Chain Blockchain NFT Donation Platform</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <a hre="https://www.youtube.com/watch?v=PWTTX4p6caI"> 
+                <a href="https://www.youtube.com/watch?v=PWTTX4p6caI"> 
                   <img className='w-100 mx-auto' src={Singularity} alt="Singulariy" />
                   </a>
                   <p className='my-4'>Winner for NY Deutsche Bank Internal Hackathon</p>
