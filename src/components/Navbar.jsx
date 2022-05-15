@@ -22,33 +22,33 @@ const Navbar = () => {
         </div>
         <div>
           <ul className='hidden md:flex'>
-            <li>
-            <Link to="home" smooth={true} duration={500} >
+            <li >
+            <Link to="home" smooth={true} duration={500} className='hover:bg-purple-500 hover:border-purple-500 rounded-lg px-4 py-2'>
                 Home            
              </Link>
             </li>
             <li>
-            <Link to="about" smooth={true} duration={500} >
+            <Link to="about" smooth={true} duration={500}  className='hover:bg-purple-500 hover:border-purple-500 rounded-lg px-4 py-2'>
                 About            
              </Link>
             </li>
             <li>
-            <Link to="experience" smooth={true} duration={500} >
+            <Link to="experience" smooth={true} duration={500}  className='hover:bg-purple-500 hover:border-purple-500 rounded-lg px-4 py-2'>
                 Experience            
              </Link>
             </li>
             <li>
-            <Link to="skills" smooth={true} duration={500} >
+            <Link to="skills" smooth={true} duration={500}  className='hover:bg-purple-500 hover:border-purple-500 rounded-lg px-4 py-2'>
                 Skills            
              </Link>
             </li>
             <li>
-            <Link to="projects" smooth={true} duration={500} >
+            <Link to="projects" smooth={true} duration={500}  className='hover:bg-purple-500 hover:border-purple-500 rounded-lg px-4 py-2'>
                 Projects            
              </Link>
             </li>
             <li>
-            <Link to="certifications" smooth={true} duration={500} >
+            <Link to="certifications" smooth={true} duration={500}  className='hover:bg-purple-500 hover:border-purple-500 rounded-lg px-4 py-2'>
                 Certifications            
              </Link>
             </li>
