@@ -27,7 +27,7 @@ const About = () => {
               </div>
             </div>
             
-            <div className='max-w-[1000px] w-full text-2xl gap-8 px-1 md:hidden'>
+            <div className='max-w-[1000px] w-full text-2xl gap-8 px-1'>
                 <br/> 
 
               <p> I began my career in the financial services industry where I learned industry standard practices and
