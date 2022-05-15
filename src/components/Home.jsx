@@ -12,7 +12,7 @@ const Home = () => {
             {/* Container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
 
-                <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Mona</h1>
+                <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Mona Rassouli</h1>
                 <h2 className='text-4xl sm:text-4xl font-bold text-[#a3aed0]'>Blockchain & Fullstack Engineer</h2>
                 <p className='text-[#a5b1d3] py-4 max-w-[700px]'>My current focus is towards developing Web3 projects and
                     fullstack dApps. I am also a technical writer in my spare time with a passion for all things technology, cats, and coffee ☕</p>
