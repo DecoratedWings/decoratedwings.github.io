@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Skills />
       <Experience/>
+      <Skills />
       <Projects />
+      <Certifications />
     </div>
   );
 }

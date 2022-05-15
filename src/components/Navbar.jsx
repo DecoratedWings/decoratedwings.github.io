@@ -3,6 +3,8 @@ import Logo from'../assets/logo.png';
 import Braintrust from '../assets/braintrust.png';
 import Hackernoon from '../assets/hackernoon.png';
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaBitcoin, FaAlignJustify} from 'react-icons/fa';
+import {Link} from 'react-scroll';
+
 
 const Navbar = () => {
 
@@ -20,12 +22,36 @@ const Navbar = () => {
         </div>
         <div>
           <ul className='hidden md:flex'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Certifications</li>
+            <li>
+            <Link to="home" smooth={true} duration={500} >
+                Home            
+             </Link>
+            </li>
+            <li>
+            <Link to="about" smooth={true} duration={500} >
+                About            
+             </Link>
+            </li>
+            <li>
+            <Link to="experience" smooth={true} duration={500} >
+                Experience            
+             </Link>
+            </li>
+            <li>
+            <Link to="skills" smooth={true} duration={500} >
+                Skills            
+             </Link>
+            </li>
+            <li>
+            <Link to="projects" smooth={true} duration={500} >
+                Projects            
+             </Link>
+            </li>
+            <li>
+            <Link to="certifications" smooth={true} duration={500} >
+                Certifications            
+             </Link>
+            </li>
           </ul>
         </div>
 
