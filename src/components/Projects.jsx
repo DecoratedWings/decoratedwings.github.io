@@ -1,13 +1,38 @@
 import React from 'react'
+import GC from '../assets/GC.png'
+import HD from '../assets/HD.png'
+import Singularity from '../assets/Singularity.png'
+import domain from '../assets/domain.png'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full h-screen bg-[#21835f] text-gray-300'>
-          <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='projects' className='w-full h-[120vh] bg-[#21835f] text-gray-300'>
+          <div className='max-w-[1000px] mx-auto p-6 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-green-300 '>Projects</p>
               <p className='py-4'>My most recent projects: </p>
           </div>
+
+          <div className='w-full grid grid-cols-2 lg:grid-cols-2 gap-8 text-center py-8'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-100 mx-auto' src={HD} alt="Haptic Dao" />
+                  <p className='my-4'>Haptic DAO: Chainlink 2022 Hackathon</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-100 mx-auto' src={GC} alt="Giving Chain" />
+                  <p className='my-4'>Giving Chain Blockchain NFT Donation Platform</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-100 mx-auto' src={Singularity} alt="Singulariy" />
+                  <p className='my-4'>Winner for NY Deutsche Bank Internal Hackathon</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-100 mx-auto' src={domain} alt="Lit Domains" />
+                  <p className='my-4'>Domain Minting Dapp on Polygon: Lit Domains</p>
+              </div>
+     
+              </div>
+
         </div>
     </div>
   )
