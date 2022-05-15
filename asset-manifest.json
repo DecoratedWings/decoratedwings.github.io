@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/decoratedwings.github.io/static/css/main.a525efc7.css",
+    "main.js": "/decoratedwings.github.io/static/js/main.3a9edde6.js",
+    "static/media/scifi2.mp4": "/decoratedwings.github.io/static/media/scifi2.a1fd25c9eebb62ac10fe.mp4",
+    "static/media/mainlogo.png": "/decoratedwings.github.io/static/media/mainlogo.d8efbd43962a8297b2bb.png",
+    "static/media/mountsinai.jpg": "/decoratedwings.github.io/static/media/mountsinai.d9700dbbf89ce91dcd42.jpg",
+    "static/media/python.png": "/decoratedwings.github.io/static/media/python.2e65c2b73eddaaf97e06.png",
+    "static/media/logo.png": "/decoratedwings.github.io/static/media/logo.9d06ed5e148feebefa16.png",
+    "static/media/hyperledger.png": "/decoratedwings.github.io/static/media/hyperledger.481db872254ddaf7f26b.png",
+    "static/media/react.png": "/decoratedwings.github.io/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/code.png": "/decoratedwings.github.io/static/media/code.bfc550e10bb303c867fc.png",
+    "static/media/oracleDB.png": "/decoratedwings.github.io/static/media/oracleDB.b017d36f12ec9bb95cb2.png",
+    "static/media/hackernoon.png": "/decoratedwings.github.io/static/media/hackernoon.5c4f7c396b8eafd2ed2f.png",
+    "static/media/gcp.png": "/decoratedwings.github.io/static/media/gcp.663f54997eda8f17c3fd.png",
+    "static/media/hardhat.png": "/decoratedwings.github.io/static/media/hardhat.5e0788b78c4c56ff0a34.png",
+    "static/media/sol.png": "/decoratedwings.github.io/static/media/sol.cfd867280f3ab57f07d1.png",
+    "static/media/javascript.png": "/decoratedwings.github.io/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/decoratedwings.github.io/index.html",
+    "main.a525efc7.css.map": "/decoratedwings.github.io/static/css/main.a525efc7.css.map",
+    "main.3a9edde6.js.map": "/decoratedwings.github.io/static/js/main.3a9edde6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a525efc7.css",
+    "static/js/main.3a9edde6.js"
+  ]
+}
