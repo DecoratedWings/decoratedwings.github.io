@@ -20,7 +20,7 @@ const Home = () => {
 
                     <video
                         autoPlay
-
+                        className='md:hidden'
                         muted
                         style={{
                             position: "absolute",
