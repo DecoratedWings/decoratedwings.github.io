@@ -15,7 +15,7 @@ const Projects = () => {
 
           <div className='w-full grid grid-cols-2 lg:grid-cols-2 gap-8 text-center py-8'>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-              <a href="https://github.com/DecoratedWings/HapticDao">
+              <a href="https://devpost.com/software/hapticdao">
                   <img className='w-100 mx-auto' src={HD} alt="Haptic Dao" />
               </a>
                   <p className='my-4'>Haptic DAO: Chainlink 2022 Hackathon</p>
